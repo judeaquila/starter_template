@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Grid System Example</title>
+  <style>
+    /* Inline styles for visual clarity */
+    .col {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      text-align: center;
+      padding: 20px;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header class="flex-center" style="background: var(--primary-color); color: white; padding: 20px;">
+    <h1>Grid System Demo</h1>
+  </header>
+  <main class="container">
+    <section>
+      <h2>Responsive Grid Layout</h2>
+      <div class="row">
+        <div class="col col-4">Column 1</div>
+        <div class="col col-4">Column 2</div>
+        <div class="col col-4">Column 3</div>
+      </div>
+      <div class="row">
+        <div class="col col-6">Column 1 (6/12)</div>
+        <div class="col col-6">Column 2 (6/12)</div>
+      </div>
+      <div class="row">
+        <div class="col col-3">Column 1</div>
+        <div class="col col-3">Column 2</div>
+        <div class="col col-3">Column 3</div>
+        <div class="col col-3">Column 4</div>
+      </div>
+      <div class="row">
+        <div class="col col-12">Full Width Column (12/12)</div>
+      </div>
+    </section>
+  </main>
+  <footer class="flex-center" style="background: var(--secondary-color); color: white; padding: 20px;">
+    <p>&copy; 2024 Grid Demo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
